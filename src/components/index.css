@@ -1,26 +1,41 @@
-.candidate-card {
-    display: flex;
-    align-items: center;
-    background: #222;
-    padding: 1rem;
-    border-radius: 8px;
-    margin: 10px 0;
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .candidate-card img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  .candidate-details {
-    flex-grow: 1;
-  }
-  
-  .candidate-card button {
-    margin-top: 10px;
-  }
-  
+/* Style the navigation bar */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+/* Style the navigation list (makes items stay inline) */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between nav items */
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each nav item */
+.nav-item {
+  display: inline;
+}
+
+/* Style navigation links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+
+/* Highlight active link */
+.nav-link.active {
+  border-bottom: 3px solid #646cff;
+  padding-bottom: 5px;
+}
