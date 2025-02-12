@@ -1,33 +1,33 @@
-# React + TypeScript + Vite
+# GitHub Candidate Search Application
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Description
+  Through the use of Typescript & React, I was able to create a Candidate Search application that utilized the Github API and rendered information onto the browser to deploy informtaion for a potential employer to view information in regards to a Github user.  With some starter code prodivded, I emphasized my skills in react and typescript in order to develop the front end side of this application.  This application will render a randomly genereated user from Github on refresh and showcase some information in regards to that user.  Some of that information can include: their avatar, email ( if publically provided), location ( if publically provided), company (if publically provide), bio (if publically provided) and a link to their github.  If a user would like to save the information, they can hit a button which will save that users information to local storage and navigate to a different page in order to see all of the saved users from local storage.  
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Guidelines](#guidelines)
+- [Tests](#tests)
+- [Questions](#questions)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Installation
+  Please view the live demo of the website at: https://candidatesearchbygithub.netlify.app/
 
-## Expanding the ESLint configuration
+  ## Usage
+  Please view the live demo at: https://candidatesearchbygithub.netlify.app/
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  ## Licenses
+  https://opensource.org/licenses/MIT
 
-* Configure the top-level `parserOptions` property as follows:
+  ## Guidelines 
+  No contributions necessary.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  ## Tests
+  Please view the live demo at: https://candidatesearchbygithub.netlify.app/
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+  ## Questions
+  If you have any questions, you can reach me at vincent.h.thao@gmail.com or visit my GitHub profile at https://github.com/vincentt94/
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
